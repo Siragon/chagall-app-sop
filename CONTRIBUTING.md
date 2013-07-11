@@ -1,65 +1,75 @@
 # How to contribute
 
-Third-party patches are essential for keeping puppet great. We simply can't
-access the huge number of platforms and myriad configurations for running
-puppet. We want to keep it as easy as possible to contribute changes that
-get things working in your environment. There are a few guidelines that we
-need contributors to follow so that we can have a chance of keeping on
-top of things.
-
 ## Getting Started
 
-* Make sure you have a [Redmine account](http://projects.puppetlabs.com)
-* Make sure you have a [GitHub account](https://github.com/signup/free)
-* Submit a ticket for your issue, assuming one does not already exist.
-  * Clearly describe the issue including steps to reproduce when it is a bug.
-  * Make sure you fill in the earliest version that you know has the issue.
-* Fork the repository on GitHub
+ * Make sure you have the easiest way to use Git on Windows. [GitHub for Windows](http://windows.github.com/)
+ * Make sure you have a [GitHub account](https://github.com/signup/free)
+ * Fork the repository on GitHub. [SOP Chagall](https://github.com/Siragon/sop-chagall)
+ * Submit a ticket for your issue, assuming one does not already exist. [New Issue](https://github.com/Siragon/sop-chagall/issues/new)
+ * Clearly describe the issue including steps to reproduce when it is a bug.
+ * Make sure you fill in the earliest version that you know has the issue.
 
 ## Making Changes
 
-* Create a topic branch from where you want to base your work.
-  * This is usually the master branch.
-  * Only target release branches if you are certain your fix must be on that
-    branch.
-  * To quickly create a topic branch based on master; `git branch
-    fix/master/my_contribution master` then checkout the new branch with `git
-    checkout fix/master/my_contribution`.  Please avoid working directly on the
-    `master` branch.
-* Make commits of logical units.
-* Check for unnecessary whitespace with `git diff --check` before committing.
-* Make sure your commit messages are in the proper format.
+ * Please working directly on the respective branch.
+ * You can make changes, and make a pull. Send me [desarrollo03@siragon.com.ve](mailto:desarrollo03@siragon.com.ve) your username to give you access to pull or submit pull request.
+ * Make commits of logical units.
+ * Check for unnecessary whitespace with `git diff --check` before committing.
+ * Make sure your commit messages are in the proper format.
 
-````
-    (#99999) Make the example in CONTRIBUTING imperative and concrete
+All commits are welcome, you can make a better SOP. Good luck. Below you can see a better help for beginners.
 
-    Without this patch applied the example commit message in the CONTRIBUTING
-    document is not a concrete example.  This is a problem because the
-    contributor is left to imagine what the commit message should look like
-    based on a description rather than an example.  This patch fixes the
-    problem by making the example concrete and imperative.
+## Clone with a click
 
-    The first line is a real life imperative statement with a ticket number
-    from our issue tracker.  The body describes the behavior without the patch,
-    why this is a problem, and how the patch fixes the problem when applied.
-````
+Quickly clone repositories from your account or any organization you belong to. Want to pull down a repository from GitHub.com? Check out the Clone in Windows button. 
 
-* Make sure you have added the necessary tests for your changes.
-* Run _all_ the tests to assure nothing else was accidentally broken.
+![Clone in Windows button][1]
+
+## Adding repositories
+
+You can add any repository already on your hard drive by dragging a folder in from Explorer. If that folder is a Git repository, GitHub for Windows will import all of the history and connect it to your GitHub accounts.
+
+Another great way to add repositories is to clone them from GitHub.com. You can do that right in the application by browsing through your personal account and any organizations you belong to. You can also clone with one click from any repository page on GitHub.com. Just look for the Clone in Windows button. 
+
+![Step one][2]
 
 ## Submitting Changes
+Make commits of logical units. 
+Make sure your commit messages are in the proper format.
 
-* Sign the [Contributor License Agreement](http://links.puppetlabs.com/cla).
-* Push your changes to a topic branch in your fork of the repository.
-* Submit a pull request to the repository in the puppetlabs organization.
-* Update your Redmine ticket to mark that you have submitted code and are ready for it to be reviewed.
-  * Include a link to the pull request in the ticket
+![Step tree][3]
 
-# Additional Resources
+## Stay in sync
 
-* [More information on contributing](http://links.puppetlabs.com/contribute-to-puppet)
-* [Bug tracker (Redmine)](http://projects.puppetlabs.com)
-* [Contributor License Agreement](http://links.puppetlabs.com/cla)
-* [General GitHub documentation](http://help.github.com/)
-* [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
-* #puppet-dev IRC channel on freenode.org
+The sync button turns the complex workflow of pulling and pushing into a single operation. It notifies you when there are new changes to pull down and lets you quickly share local changes. 
+
+![Step four][4]
+
+## Branch with ease
+
+Branching is one of Git’s best features. We’ve made it easy to try out remote branches, create new local branches, and publish branches to share with others. Remember the branch **ics** is to update the system or matriz from ICS to JB. And the branch **jb** is to make some customizations from JB.
+
+![Step five][6]
+
+## Setting up your avatar
+
+Git stores an email address inside of every commit you make. You can view and change your email address in the the options dialog. GitHub for Windows then uses [Gravatar](http://en.gravatar.com/) to display an avatar for that email address. If you’d like to see your face next to commits, register a [Gravatar](http://en.gravatar.com/) with the email address you use to make commits. 
+
+## I have more questions!
+
+Feel free to send any additional questions you have to [desarrollo03@siragon.com.ve](mailto:desarrollo03@siragon.com.ve)  or  add me on Skype [alexandersalas](skype:alexandersalas?call) and we’ll help you out. Night or day. 
+
+## Additional Resources
+
+ * [General GitHub documentation](http://help.github.com/)
+ * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
+ * [Libro en español](http://git-scm.com/book/es/)
+ * [GitHub for Windows](http://windows.github.com/)
+ * [GitHub for Android](http://mobile.github.com/)
+
+  [1]: http://windows.github.com/images/mini-clone-in-windows.png
+  [2]: https://raw.github.com/Siragon/sop-chagall/master/sop/step1.png
+  [3]: https://raw.github.com/Siragon/sop-chagall/master/sop/step3.png
+  [4]: https://raw.github.com/Siragon/sop-chagall/master/sop/step4.png
+  [5]: https://raw.github.com/Siragon/sop-chagall/master/sop/step4.png
+  [6]: https://raw.github.com/Siragon/sop-chagall/master/sop/step5.png
